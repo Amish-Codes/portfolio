@@ -263,6 +263,7 @@ footer {
     width: 220px;
     border-radius: 10px;
     background-color: transparent;
+    border: 1px border white;
     color: #fff;
 }
 .project_image{
@@ -278,4 +279,7 @@ footer {
 
 .procard:hover{
     transform: rotateZ(-3deg);
+    background-color: orange;
+    border: 1px solid orange;
+    box-shadow: 0 0 15px orange;
 }
